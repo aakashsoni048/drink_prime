@@ -1,0 +1,234 @@
+  form{
+        padding: 30px 60px 40px 60px;
+        background-color: white;
+        box-shadow: 0px 0px 70px #aaaaaa;
+        margin-top: 50px;
+        width: 50%;
+        margin-left: 290px;
+        border-radius: 0px 50px 0px 50px;
+    }
+  label {
+        margin-left: 10px;
+        margin-top: 15px;
+        margin-bottom: 5px !important;
+        font-weight: 500 !important;
+        letter-spacing: 0.5px;
+ }
+
+ input[type=text], select, textarea {
+        width: 100%;
+        padding: 15px 0px 15px 10px;
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        resize: vertical;
+        outline: none;
+}
+input[type=submit] {
+    background-color: #0046BF;
+    color: white;
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: 1px solid #0046BF;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+input[type=submit]:hover {
+    color: #0046BF;
+    background-color: #fff;
+    border: 1px solid #0046BF;
+    text-decoration: none;
+}
+.top-head {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+    padding: 15px 0px 20px 0px;
+    background-image: url(https://subscribe.drinkprime.in/wp-content/uploads/2020/02/bg-heading.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 330px auto;
+    font-weight: bold;
+    line-height: 1.3em;
+    color: #000B38;
+}
+.success-txt{
+  color: #000000;
+  font-size: 30px;
+  font-weight: 200;
+  text-transform: none;
+  line-height: 1.8;
+  position: relative;
+  background-color: #FFF;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.unsucess-txt{
+  color: #FF0000;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: none;
+  line-height: 1.8;
+  position: relative;
+  background-color: #ffffff;
+  padding-bottom: 30px;
+  text-align: center;
+}
+#submit_form_msg{
+    display: none;
+}
+#unsucess_form_msg{
+    display: none;
+}
+#radio_data-error {
+    position: absolute;
+    top: 195px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: .75rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    width: 45%;
+    margin: 20px 0px 20px -15px;
+}
+.noContent {
+  color: #000 !important;
+  background-color: transparent !important;
+  pointer-events: none;
+}
+.radio-data-div{
+    display: none;
+}
+#loadMore {
+    width: 95px;
+    color: #fff;
+    background-color: #0046BF;
+    transition: .3s;
+    text-decoration: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+#loadMore:hover {
+  color: blue;
+  background-color: #fff;
+  border: 1px solid blue;
+  text-decoration: none;
+}
+@media only screen and (max-width: 1024px) {
+  form {
+    width: 90%;
+    margin-left: 65px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  form {
+    width: 90%;
+    margin-left: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  form {
+    width: 90%;
+    margin-left: 40px;
+  }
+  #radio_data-error {
+    top: 230px;
+    width: 54%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  form {
+    width: 90%;
+    margin-left: 15px;
+  }
+}
+#portfolioModal6{
+    display: none;
+}
+
+/*modal css start*/
+#forgatPassModalId {
+    opacity: inherit;
+    padding: 10px;
+  }
+.modal-dialog {
+    max-width: 500px;
+    margin: 14.75rem auto;
+}
+.forgatpass-modal-content {
+    padding: 40px;
+}
+
+.modal-content {
+    position: relative;
+    /*display: flex;*/
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0 solid rgba(0, 0, 0, 0.2);
+    border-radius: 0px 60px 0px 60px;
+    outline: 0;
+}
+.modal-dialog.full-screen {
+    position:fixed;
+    //width:auto;  // uncomment to make the width based on the left/right attributes.
+    margin:auto;                        
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+}
+
+.modal-dialog.full-screen .modal-content {
+    position: absolute;
+    left: -8px;
+    right: 0px;
+    top: 150px;
+    bottom: 10px;
+    height: 650px;
+}
+.modal-dialog.full-screen .modal-content .modal-body {
+    overflow-y: auto;
+    position: absolute;
+    top: 70px;
+    bottom: -400px;
+    left: 0px;
+    right: 0;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.portfolio-modal .close {
+    position: absolute;
+    z-index: 1;
+    right: 1.5rem;
+    top: 1rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #1abc9c;
+    opacity: 1;
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.5;
+}
+button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+}
+/*modal css end*/
